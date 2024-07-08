@@ -12,7 +12,7 @@ steps:
   - name: build
     image: plugins/docker
     settings:
-      repo: your-dockerhub-username/your-repo
+      repo: thapapath/your-repo
       tags: latest
       username:
         from_secret: docker_username

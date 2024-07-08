@@ -16,6 +16,9 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: your-dockerhub-username/your-repo:latest
+        image: thapapath/your-repo:latest
         ports:
         - containerPort: 3000
+
+
+
